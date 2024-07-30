@@ -1,0 +1,22 @@
+/* Cygre regular */
+@font-face {
+  font-family: 'Cygre';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Cygre Regular'),
+    url('../fonts/Cygre-Regular.woff2') format('woff2'),
+    url('../fonts/Cygre-Regular.woff') format('woff'),
+    url('../fonts/Cygre-Regular.eot') format('eot');
+  font-display: swap;
+}
+
+/* Cygre bold */
+@font-face {
+  font-family: 'Cygre';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Cygre Bold'), url('../fonts/Cygre-Bold.woff2') format('woff2'),
+    url('../fonts/Cygre-Bold.woff') format('woff'),
+    url('../fonts/Cygre-Bold.eot') format('eot');
+  font-display: swap;
+}

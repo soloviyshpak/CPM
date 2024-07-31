@@ -1,5 +1,5 @@
 .works {
-  padding-bottom: 73px;
+  padding: 0 15px 73px;
 }
 .works__wrapper {
   position: relative;
@@ -11,9 +11,13 @@
   box-shadow: 2px 4px 3px 0 rgba(0, 0, 0, 0.3);
   border-radius: 12px;
 }
+.works__item {
+  width: 294px;
+}
 .work__item-info {
   margin-top: 15px;
   text-align: center;
+  max-width: 294px;
 }
 .work__item-author,
 .work__item-model,

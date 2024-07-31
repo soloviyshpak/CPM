@@ -6,10 +6,25 @@
   display: grid;
   padding: 12px 0;
   grid-template-columns: repeat(2, 43%);
+
+  @include media(550px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .footer__left-item {
   font-weight: 700;
   font-size: 10px;
+
+  @include media(550px) {
+    margin-bottom: 0px;
+    text-align: center;
+  }
+}
+.footer__center {
+  margin-top: 10px;
 }
 .footer__center-title {
   margin-bottom: 5px;

@@ -1,8 +1,12 @@
 .news {
-  padding: 57px 0;
+  padding: 57px 15px;
 }
 .news__title {
   margin-bottom: 38px;
+
+  @include media(1170px) {
+    margin-bottom: 10px;
+  }
 }
 .news__item {
   border-bottom: 1px solid #000;
@@ -17,8 +21,16 @@
     text-decoration: underline;
     text-decoration-color: #a3a3a3;
   }
+
+  @include media(1170px) {
+    font-size: clamp(14px, 3vw, 20px);
+  }
 }
 .news__item-date {
   font-size: 20px;
   color: #f00;
+
+  @include media(1170px) {
+    font-size: clamp(14px, 3vw, 20px);
+  }
 }

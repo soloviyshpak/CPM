@@ -2,4 +2,8 @@
   font-weight: 700;
   font-size: 36px;
   color: #000;
+
+  @include media(1170px) {
+    font-size: clamp(26px, 3vw, 36px);
+  }
 }

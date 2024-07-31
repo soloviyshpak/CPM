@@ -5,7 +5,7 @@ $('.works__list').slick({
   arrows: false,
   responsive: [
     {
-      breakpoint: 1240,
+      breakpoint: 1290,
       settings: {
         slidesToShow: 3,
       },
@@ -17,7 +17,7 @@ $('.works__list').slick({
       },
     },
     {
-      breakpoint: 650,
+      breakpoint: 550,
       settings: {
         slidesToShow: 1,
       },

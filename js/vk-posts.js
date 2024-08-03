@@ -32,7 +32,7 @@ script.src =
   'https://api.vk.com/method/wall.get?access_token=4718792b4718792b4718792bf04402aaca447184718792b21b4b02fb2620dc8a7f1ad25&domain=publictransportscale&count=3&v=5.199&callback=callbackFunc';
 document.getElementsByTagName('head')[0].appendChild(script);
 
-// Вставка новостей в сайт
+// Вставка новостей в блок сайта
 function callbackFunc(result) {
   for (let i = 0; i < 3; ++i) {
     newsLink[i].textContent = result.response.items[i].text;
